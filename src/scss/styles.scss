@@ -1,0 +1,29 @@
+.react-toggle-wrapper {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	direction: ltr;
+	-webkit-transition: opacity 0.25s;
+	-moz-transition: opacity 0.25s;
+	transition: opacity 0.25s;
+	touch-action: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	&.disabled {
+		opacity: 0.5;
+	}
+}
+
+.react-toggle-input {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1;
+	margin: -1;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1;
+}
